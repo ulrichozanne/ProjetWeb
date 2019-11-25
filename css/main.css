@@ -421,14 +421,20 @@ input.input100 {
 [ Formulaire ajout d'intervention ]*/
 
 body{
-    background-color: #d1caca;
+    background-color: #e8e7e5;
   }
   .contact{
     padding: 4%;
     height: 400px;
   }
+
+  .titre_intervention
+  {
+    text-align: center;
+  }
+
   .col-md-3{
-    background: #ff9b00;
+    background: #ffe6c1;
     padding: 4%;
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
@@ -474,7 +480,14 @@ body{
 /*------------------------------------------------------------------
 [ Accueil ]*/
 
-body
+.background
 {
   background-image: url("../images/accueil.jpg");
+}
+
+/*------------------------------------------------------------------
+[ Formulaire ajout d'intervention ]*/
+
+h3.bordure-tableau {
+  text-align: center;
 }

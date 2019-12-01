@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Informations clients</title>
+	<title>Liste des interventions</title>
   	<meta charset ="UTF-8">
   	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
@@ -9,19 +9,18 @@
 <body>
 	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 		 <ul class="navbar-nav">
-    		<li class="nav-item active">
-      			<a class="nav-link" href="accueil.html">Accueil</a>
-    		</li>
-    		<li class="nav-item">
-      			<a class="nav-link" href="informationsClients.html">Informations clients</a>
-    		</li>
-    		<li class="nav-item">
-     			<a class="nav-link" href="ajoutIntervention.html">Ajouter une intervention</a>
-    		</li>
-    		<li class="nav-item">
-      			<a class="nav-link disabled" href="#">Consulter les interventions</a>
-    		</li>
-  		</ul>
+				<li class="nav-item active">
+						<a class="nav-link" href="accueil.html">Accueil</a>
+				</li>
+				<li class="nav-item">
+						<a class="nav-link" href="informationsClients.html">Générer une fiche client</a>
+				<li class="nav-item">
+					<a class="nav-link" href="ajoutIntervention.html">Affecter une intervention</a>
+				</li>
+				<li class="nav-item">
+						<a class="nav-link disabled" href="#">Consulter les interventions</a>
+				</li>
+			</ul>
 	</nav>
       <br><br>
       <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -31,25 +30,25 @@
                 <table class="table table-bordered table-striped table-sm">
               <thead class="thead-dark">
                 <tr>
-                    <th>Numéro d'intervention</th>
-                    <th>Nom</th>
-                    <th>Adresse</th>
-                    <th>Date</th>
-                    <th>Heure</th>
-                    <th>Numéro de série</th>
-                    <th>Type de matériel</th>
-                    <th>Temps passé</th>
-                    <th>Commentaire</th>
+                    <th class="titre">Numéro d'intervention</th>
+                    <th class="titre">Nom</th>
+                    <th class="titre">Adresse</th>
+                    <th class="titre">Date</th>
+                    <th class="titre">Heure</th>
+                    <th class="titre">Numéro de série</th>
+                    <th class="titre">Type de matériel</th>
+                    <th class="titre">Temps passé</th>
+                    <th class="titre">Commentaire</th>
                   </tr>
             </thead>
               <tbody>
                 <tr>
                     <td rowspan="8">Grand Mekong</td>
-                    <td>Demande croissante de certaines parties de l’animal pour la médecine chinoise traditionnelle 
+                    <td>Demande croissante de certaines parties de l’animal pour la médecine chinoise traditionnelle
                 et fragmentation des habitats du fait du développement non durable d’infrastructures</td>
                 </tr>
                 <tr>
-                    
+
                     <td>Production d’huile de palme et de pâtes à papiers</td>
                 </tr>
                 <tr>
@@ -78,6 +77,6 @@
 
 
 </table>
-  
+
 </body>
 </html>

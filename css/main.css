@@ -421,7 +421,7 @@ input.input100 {
 [ Formulaire ajout d'intervention ]*/
 
 body{
-    background-color: #e8e7e5;
+    background-color: #f7f7f7;
   }
   .contact{
     padding: 4%;
@@ -478,29 +478,60 @@ body{
 
 
 /*------------------------------------------------------------------
-[ Accueil ]*/
+[ accueil.html ]*/
 
 .background
 {
-  background-image: url("../images/accueil_bis.jpg");
+  background-image: url("../images/accueil.jpg");
 }
 
-.bienvenue {
+p.bienvenue {
   text-align: center;
   vertical-align: middle;
+  font-size: 50px;
+  margin-top: 300px;
+  color: #343A40;
+}
+
+.btn.btn-primary {
+  color: white;
+  background-color: #343A40;
+  border-radius: 15px;
+  position: relative;
+  left: 500px;
+}
+
+.button_deconnexion {
+  background-color: #343A40;
+  font-size: 15px;
+  border-radius: 1px;
+  color: white;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-left: 450px;
+  margin-top: 350px;
+
 }
 
 /*------------------------------------------------------------------
-[ Formulaire ajout d'intervention ]*/
+[ consulter_intervention.html ]*/
 
-h3.bordure-tableau {
+h1.liste_intervention {
   text-align: center;
+  margin-top: 80px;
+}
+
+.liste_intervention {
+  text-align:center;
 }
 
 /*------------------------------------------------------------------
-[ Formulaire ajout d'intervention ]*/
+[ fiche_client.html ]*/
 
-.titre {
-  text-align: center;
-  vertical-align: middle;
+.w3-text-blue {
+  color:#343A40;
 }
+
+

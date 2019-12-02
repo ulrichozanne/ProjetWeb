@@ -9,7 +9,7 @@ catch(Exception $e)
 	// En cas d'erreur, on affiche un message et on arrête tout
         die('Erreur : '.$e->getMessage());
 }
-if(isset($_POST['connection']))
+if(isset($_POST['connexion']))
 {
 	$login = $_POST['login'];
 	$mdp = $_POST['mdp'];
@@ -32,11 +32,6 @@ $reponse->closeCursor();*/
 </head>
 <body>
 
-<!--<form action="inscripBDD.php" method="post">
- Login : <input type="text" name="login" id="login" />
- Mot de passe : <input type="password" name="mdp" id="mdp" />
- <input type="submit" value="OK">
-</form>-->
 <div align="center">
 <h2>Connexion</h2><br />
 <form method="POST" action="cible.php">

@@ -20,11 +20,21 @@
             <li class="nav-item">
                 <a class="nav-link active" href="consulter_intervention.html">Consulter les interventions</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contrat.html">Contrats de garantie</a>
+            </li>
         </ul>
     </nav>
     <div class="container">
     <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
         <div class="resume-content">
+            <div class="recherche_p_bis">
+
+            <form action="/search" id="searchthis" method="post">
+            <input id="search" name="q" type="text" placeholder="Entrez une date ou le nom d'un agent" />
+            <input id="search-btn" type="submit" value="Rechercher" />
+            </form>
+        </div>
             <h1 class="liste_intervention">Liste des interventions</h1>
             <br><br>
                 <table class="table table-bordered table-striped table-sm">

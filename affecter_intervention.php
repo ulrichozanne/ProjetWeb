@@ -53,7 +53,8 @@ catch(Exception $e)
 
 $affecterintervention = $bdd->prepare('INSERT INTO intervention(numeroIntervent,dateVisite,heureVisite, numCli, matriculeTec')
 
-
+$login = $_POST['login'];
+$mdp = $_POST['mdp'];
 
 session_start();
 $_SESSION['id'] = $resultat['id'];

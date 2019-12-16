@@ -8,12 +8,6 @@ catch(Exception $e)
         die('Erreur : '.$e->getMessage());
 }
 
-$login = $_POST['login'];
-$mdp = $_POST['mdp'];
-
-session_start();
-$_SESSION['id'] = $resultat['id'];
-$_SESSION['login'] = $resultat['login'];
 
 ?>
 

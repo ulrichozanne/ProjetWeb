@@ -55,7 +55,9 @@ $affecterintervention = $bdd->prepare('INSERT INTO intervention(numeroIntervent,
 
 
 
-
+session_start();
+$_SESSION['id'] = $resultat['id'];
+$_SESSION['login'] = $resultat['login'];
 
 ?>
 

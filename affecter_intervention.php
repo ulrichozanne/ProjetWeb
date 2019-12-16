@@ -11,12 +11,6 @@ catch(Exception $e)
 $login = $_POST['login'];
 $mdp = $_POST['mdp'];
 
-<<<<<<< HEAD
-$login = $_POST['login'];
-$mdp = $_POST['mdp'];
-
-=======
->>>>>>> 083e8febc7124eaaae7638fdaf8a4b267de3a362
 session_start();
 $_SESSION['id'] = $resultat['id'];
 $_SESSION['login'] = $resultat['login'];
@@ -64,18 +58,7 @@ $_SESSION['login'] = $resultat['login'];
 
 $affecterintervention = $bdd->prepare('INSERT INTO intervention(numeroIntervent,dateVisite,heureVisite, numCli, matriculeTec')
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 083e8febc7124eaaae7638fdaf8a4b267de3a362
 ?>
-
-
-
-
-
-
 
   <form method="POST" action="affecter_intervention.php">
     <div class="container contact">

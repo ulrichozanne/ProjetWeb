@@ -15,6 +15,7 @@ $mdp = $_POST['mdp'];
 session_start();
 $_SESSION['id'] = $resultat['id'];
 $_SESSION['login'] = $resultat['login'];
+
 ?>
 
 <!DOCTYPE html>

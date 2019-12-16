@@ -1,3 +1,19 @@
+
+<?php
+try
+{
+  $bdd = new PDO('mysql:host=localhost;dbname=cashcash;charset=utf8', 'root', '');
+}
+catch(Exception $e)
+{
+        die('Erreur : '.$e->getMessage());
+}
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -32,7 +48,7 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
-				<form class="login100-form validate-form" method="POST" action="cible.php">
+				<form class="login100-form validate-form" method="POST" action="accueil.php">
 					<span class="login100-form-title p-b-33">
 						Connexion
 					</span>
